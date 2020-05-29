@@ -1,0 +1,42 @@
+{
+  "name": "template_repo_gulp",
+  "version": "1.0.0",
+  "description": "simple basic template for quick launch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp css",
+    "start": "gulp start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mouxez/template_repo_gulp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mouxez/template_repo_gulp/issues"
+  },
+  "homepage": "https://github.com/mouxez/template_repo_gulp#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.7.6",
+    "browser-sync": "^2.26.7",
+    "deep-extend": "0.6.0",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-csso": "^4.0.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^6.2.0",
+    "gulp-less": "^4.0.1",
+    "gulp-plumber": "1.2.x",
+    "gulp-postcss": "8.0.x",
+    "gulp-posthtml": "^3.0.4",
+    "gulp-rename": "^2.0.0",
+    "gulp-sourcemaps": "2.6.x",
+    "gulp-svgstore": "^7.0.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-webp": "^4.0.1",
+    "merge": "1.2.1",
+    "posthtml-include": "^1.4.3"
+  }
+}
